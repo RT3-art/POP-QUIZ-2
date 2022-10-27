@@ -1,0 +1,38 @@
+<style>
+  a{
+    color: green;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover {
+    color: teal;
+    transition: all 1s;
+    transform: rotate(10deg)
+  }
+  
+  .title {
+    color: red;
+    font-family: sans-serif;
+  }
+  
+</style>
+
+<div>
+<h1 class="title">This is a Header</h1>
+  <h1 class="title">
+  <a href="https://www.merriam-webster.com/dictionary/pretty">Pretty</a>
+  <a href="https://www.merriam-webster.com/dictionary/cool">cool</a>
+  <a href="https://www.merriam-webster.com/dictionary/right">right?</a>
+  </h1>
+</div>
+
+<script>
+
+  const titles = document.querySelectorAll('.title')
+  const p = titles[1]
+  p.style.color = 'orange'
+  
+</script>
+  
+</script>
